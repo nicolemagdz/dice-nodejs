@@ -18,9 +18,12 @@ Template formatted to Dice Roller game.
 
 ## Credit:
 Eric Pogue
+
 See README in [dice-static](https://github.com/nicolemagdz/dice-static.git)
 
 ## dice-nodejs
 Nicole Magdziasz
+
 [nicolemmagdziasz@lewisu.edu](mailto:nicolemmagdziasz@lewisu.edu)
+
 Web Dice Roller Plus (Node.js website)
