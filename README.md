@@ -9,8 +9,11 @@ Select Node 18 LTS
 
 To execute locally:
 git clone [https://github.com/nicolemagdz/dice-nodejs.git]
+
 cd [dice-nodejs]
+
 npm install express
+
 npm start
 
 ## Update:
