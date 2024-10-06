@@ -2,18 +2,50 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8" />
-	<title>Dice Server</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>5 Dice Roll</title>
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+	<script>
+		window.SHOW_TEST_TAG = "true";
+	</script>
+	<script defer src="script.js"></script>
 </head>
 <body>
-	<h1>Dice Server with node.js</h1>
-	<p>Version 3</p>
-	<p>This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-	be hosted on Microsoft Azure.</p><br />
+	<h1>Dice Roll with node.js</h1>
+	<p>Click the button to roll the dice. The sum will appear below.</p>
+	<h2 id="sum">Sum: 15</h2>
 
-	MERNa stands for MongoDB, Express, React, abd Node on Azure.
-
-	Additional application functionality includes:<br />
-	<a href="fetching-from-server.html">Accessing Node.js Server-Side Application Programming Interfaces (APIs)</a><br />
-	<a href="fetching-remote-dog-breeds.html">Accessing Remote Application Programming Interfaces (APIs)</a>
+	<div class="dice" id="dice">
+		<div class="die" id="die1">
+		  <i class="fa-solid fa-dice-one" style="font-size: 3.5rem"></i>
+		</div>
+		<div class="die" id="die2">
+		  <i class="fa-solid fa-dice-six" style="font-size: 3.5rem"></i>
+		</div>
+		<div class="die" id="die3">
+		  <i class="fa-solid fa-dice-six" style="font-size: 3.5rem"></i>
+		</div>
+		<div class="die" id="die4">
+		  <i class="fa-solid fa-dice-one" style="font-size: 3.5rem"></i>
+		</div>
+		<div class="die" id="die5">
+		  <i class="fa-solid fa-dice-one" style="font-size: 3.5rem"></i>
+		</div>
+	</div>
+	<button class="btn" onclick="rollDice()">Roll Dice</button>
+	<div id="test-tag" style="display: none; position: absolute; top: 10px; 
+							  right: 10px; background-color: red; 
+							  padding: 5px; border-radius: 5px;">
+		Test Node.js
+	</div>
+	<script src="script.js"></script>
+	<p>Node Test v4.03</p>
 </body>
 </html>
