@@ -8,7 +8,19 @@ Azure hosting notes:
 Select Node 18 LTS
 
 To execute locally:
-git clone [[your-repository-url]]
-cd [[your-repository-url]]
+git clone [[https://github.com/nicolemagdz/dice-nodejs.git]]
+cd [[https://github.com/nicolemagdz/dice-nodejs.git]]
 npm install express
 npm start
+
+## Update:
+Template formatted to Dice Roller game.
+
+## Credit:
+Eric Pogue
+See README in [dice-static](https://github.com/nicolemagdz/dice-static.git)
+
+## dice-nodejs
+Nicole Magdziasz
+[nicolemmagdziasz@lewisu.edu](mailto:nicolemmagdziasz@lewisu.edu)
+Web Dice Roller Plus (Node.js website)
